@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
-import Button from '../Button/Button';
-import InputField from '../TextInputField/InputField';
 
 const Footer = () => (
   <div className="footer">
@@ -22,14 +20,11 @@ const Footer = () => (
     <div>
       <p className="title">Follow us on Email</p>
       <form>
-        <InputField
-          type="email"
-          label="Email"
-        />
+        <label htmlFor="email">Email</label>
         <br />
-        <Button
-          value="Subscribe"
-        />
+        <input type="email" />
+        <br />
+        <input type="submit" value="Subscribe" />
       </form>
     </div>
   </div>

@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
-import InputField from '../TextInputField/InputField';
-import Button from '../Button/Button';
 
 const Body = () => (
   <div className="row">
@@ -9,32 +7,25 @@ const Body = () => (
       <p><b>Create an account</b></p>
       <p>Enter your email address to create an account:</p>
       <form>
-        <InputField
-          type="email"
-          label="Email"
-        />
+        <label htmlFor="email">Email</label>
         <br />
-        <Button
-          value="Create An Account"
-        />
+        <input type="text" />
+        <br />
+        <input type="submit" value="Create An Account" />
       </form>
     </div>
     <div className="column">
       <p><b>Already registered?</b></p>
       <form>
-        <InputField
-          type="email"
-          label="Email"
-        />
+        <label htmlFor="email">Email</label>
         <br />
-        <InputField
-          type="password"
-          label="Password"
-        />
+        <input type="text" />
+        <br />
+        <label htmlFor="password">Password</label>
+        <br />
+        <input type="password" />
         <p><a href="#home">Forgot your password?</a></p>
-        <Button
-          value="Sign In"
-        />
+        <input type="submit" value="Sign In" />
       </form>
     </div>
   </div>

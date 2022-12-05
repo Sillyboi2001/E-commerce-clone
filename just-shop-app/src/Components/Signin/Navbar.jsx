@@ -1,15 +1,11 @@
 import React from 'react';
-import '../Signin/signin.css';
-import InputField from '../TextInputField/InputField';
+import './signin.css';
 
 const Navbar = () => (
   <>
     <div className="header">
       <header>JUST-SHOP</header>
-      <InputField
-        type="text"
-        placeholder="Search..."
-      />
+      <input type="text" placeholder="Search..." />
     </div>
     <div>
       <ul className="navbar-container">
