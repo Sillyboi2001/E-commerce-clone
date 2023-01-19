@@ -28,6 +28,7 @@
 .navbar-container li a:hover{
   background-color: white;
   color: red;
+  height: 20px;
 }
 input{
   width: 300px;
@@ -120,6 +121,12 @@ input[type=submit] {
   .footer{
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+  }
+  .footer > div{
+    text-align: left;
+    position: relative;
+    align-self: flex-start;
   }
   .navbar-container {
     list-style-type: none;

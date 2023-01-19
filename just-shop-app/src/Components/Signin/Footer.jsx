@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import Button from '../Button/Button';
 import InputField from '../TextInputField/InputField';
@@ -34,4 +33,5 @@ const Footer = () => (
     </div>
   </div>
 );
+
 export default Footer;
